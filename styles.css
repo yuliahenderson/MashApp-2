@@ -57,13 +57,12 @@ body {
   overflow: scroll;
 }
 
-header {
+/*header {
   width: 100%;
   height: 10%;
   position: fixed;
   z-index: 1000;
-  background-color: none;
-}
+}*/
 
 
 section, footer,
@@ -118,6 +117,15 @@ a.info:hover, a.info:active, a.purchase:hover, a.purchase:active {
   line-height: 1.5em;
   color: #ffffff;
 }*/
+
+#fixedHeader {
+
+  background-color: transparent;
+  width: 100%;
+  height: 10%;
+  position: fixed;
+  z-index: 1000;
+}
 
 h1 {
   font-family: GT America;
@@ -209,7 +217,7 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   margin-bottom: 5%;
-  scroll-snap-align: start;
+/*  scroll-snap-align: start;*/
 
 }
 .one {
@@ -437,12 +445,12 @@ nav ul li {
  }
 
     .container-phone {
-       position: relative;
-       width: 180px;
-       height: 360px;
-       overflow: hidden;
-       margin: 25% 30% 5% 30%;
-  }
+        position: relative;
+        width: 222px; /* Set your desired width */
+        height: 455px; /* Set your desired height */
+        overflow: hidden;
+         margin: 5% 20% 2% 20%;
+    }
 
     .slider {
         width: 100%;
@@ -484,7 +492,7 @@ nav ul li {
 .page3-title {
     position: absolute;
     line-height: 34px;
-    letter-spacing: 0.25px;
+    letter-spacing: -0.25px;
     font-size: 24px;
     font-family: GT America;
     font-weight: 700;
@@ -525,7 +533,7 @@ nav ul li {
 
  .heading4 {
   line-height: 34px;
-  letter-spacing: 0.25px;
+  letter-spacing: -0.25px;
   font-size: 24px;
   font font-family: GT America;
   color: #000000;
