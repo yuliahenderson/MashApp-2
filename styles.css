@@ -241,7 +241,7 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   margin-bottom: 5%;
-/*  scroll-snap-align: start;*/
+  scroll-snap-align: start;
 
 }
 .one {
